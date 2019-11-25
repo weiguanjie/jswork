@@ -9,7 +9,7 @@
     <div class="selyear">
         <span class="preyear" id="preyear" data-year="" onclick="setCalendar(this.dataset.year)"></span>
         <span id="weiguanjie"></span>
-        <span class="nextyear"id="nextyear"data-year="" onclick="setCalenar(this.dataset.year)"></span>
+        <span class="nextyear"id="nextyear"data-year="" onclick="setCalendar(this.dataset.year)"></span>
     </div>
         <div class="box" id="cal"></div>
 </body>
@@ -25,7 +25,7 @@
         document.getElementById('nextyear').setAttribute('data-year', next1);
         document.getElementById("preyear").innerText = "<<" + pre1;
         document.getElementById("weiguanjie").innerText = year1;
-        document.getElementById("nextyear").innerText = next1 + ">>";
+        document.getElementById("nextyear").innerText =  ">>" + next1;
         // document.getElementById("cal").innerHTML = calendar(year1);
     </script>
 <script src="calendar.js"></script>
