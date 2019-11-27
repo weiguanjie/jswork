@@ -10,7 +10,7 @@ var elements= [
     {tag:'select',text:'住址:',attr:{name:'area'},
     option:{'':'--请选择--',bj:'北京',sh:'上海',sz:'深圳'}},
     {tag:'textarea',text:'自我介绍:',
-    attr:{name:'introduce', cols:'50',rows:'5'}},
+    attr:{name:'introduce', cols:'50',rows:'5'}}, 
     {tag:'input',attr:{type:'submit',value:'提交'}}
 
 ];

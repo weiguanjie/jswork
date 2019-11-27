@@ -46,7 +46,7 @@
                 var html='';
                 for(var k in option){
                     html+='<option value="'+k+'">'+option[k]+'</option>';
-                }
+                } 
                 return'<select '+attr+'>'+html+'</select>';
             },
             textarea:function(attr){
