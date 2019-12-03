@@ -9,7 +9,7 @@ next:'green'
 yellow: {
     obj:document.getElementById('yellow'),
     timeout: 2,
-    style: ['gray','yrllow','gray'],
+    style: ['gray','yellow','gray'],
     next: 'red'
 },
 green: {
