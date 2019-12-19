@@ -21,14 +21,14 @@ function inputBlur() {
 }
 function getRegMsg(name, tips) {
     var reg = msg = '';
-    switch (name) {
+    switch (name)  {
         case 'username':
             reg = /^[a-aA-Z]{4,12}$/;
         msg = {'success': '用户名输入正确','error': tips};
         break;
         case 'pwd':
             reg = /^\w{6,20}$/;
-            msg ={'success': '密码输入正确', 'erroe': tips};
+            msg ={'success': '密码输入正确', 'error': tips};
             break;
             case 'repwd':
             var con = document.getElementsByTagName('input')[1].value;

@@ -18,7 +18,7 @@ body {
     font-size: 12px;
 }
 .box-body input[type=text],
-.box-body input[type=password]{
+.box-body input[type=password] {  
     border-color: #bbb;
     height: 38px;
     font-size: 14px;
