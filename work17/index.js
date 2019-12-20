@@ -23,7 +23,7 @@ function getRegMsg(name, tips) {
     var reg = msg = '';
     switch (name)  {
         case 'username':
-            reg = /^[a-aA-Z]{4,12}$/;
+            reg = /^[a-zA-Z]{4,12}$/;
         msg = {'success': '用户名输入正确','error': tips};
         break;
         case 'pwd':
