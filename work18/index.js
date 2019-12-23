@@ -18,5 +18,5 @@ function send() {
             result = ajaxData.reverse().map((val)=>{return JSON.stringify(val)})
             document.getElementById("result").innerHTML = result.join('<br>')
         }
-    }
+     }
 }

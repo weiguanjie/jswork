@@ -17,7 +17,7 @@
             obj.page = (obj.page >= obj.maxPage) ? obj.maxPage : (obj.page + 1);
             obj.onChange();
         };
-        this.last.onclick = function () {
+        this.last.onclick = function ()  {
             obj.page = obj.maxPage;
             obj.onChange();
         };
